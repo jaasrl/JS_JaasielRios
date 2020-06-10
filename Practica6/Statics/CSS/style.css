@@ -1,0 +1,15 @@
+/*Definir el estilo de nuestra clase contenedor*/
+.contenedor {
+    background-color: rgba(201, 196, 198, 0.98);
+    width: 99%;
+    border: 6px dashed rgb(4, 1, 14);
+}
+/*Definir el estilo de nuestra clase blue*/
+.blue {
+    color: rgb(18, 32, 199);
+    text-decoration: underline;
+}
+/*Definir el estilo de nuestra clase red*/
+.red {
+    color: rgb(249, 12, 35);
+}
