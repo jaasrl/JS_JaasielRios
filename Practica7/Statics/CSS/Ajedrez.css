@@ -1,0 +1,17 @@
+/*Darle estilo a la clase menta*/
+.menta {
+    width: 40px;
+    height: 40px;
+    background-color: #72F4BE;
+}
+/*Darle estilo a la clase azul*/
+.azul {
+    width: 40px;
+    height: 40px;
+    background-color: #12345B;
+}
+/*Darle estilo al elemento table*/
+table {
+    border: 2px solid #72F4BE;
+    border-collapse: collapse;
+}
