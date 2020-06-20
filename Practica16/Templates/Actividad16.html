@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--Titulo que aparecera en la pestaña del navegador-->
+    <title>Actividad 16</title>
+    <link rel="stylesheet" href="../Statics/CSS/Actividad16.css">
+    <!--Para poder ocupar externamente jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--Definir el canvas-->
+    <canvas id="canvas"></canvas>
+    <!--div que contendra el formulario-->
+    <div class="contenedor">
+      <!--Indicar un formulario-->
+      <form>
+        <!--maregen del formulario-->
+        <fieldset>
+          <p>Selecciona una figura:
+            <!--Para poder seleccionar la figura-->
+            <select id="Figura">
+              <option value="rectangulo">Rectángulo</option>
+              <option value="circulo">Círculo</option>
+              <option value="mickey">Mickey Mouse</option>
+            </select>
+          </p>
+          <!--Para seleccionar el color-->
+          <p>Selecciona el color: <input type="color" id="fondo"></p>
+          <!--Para poder enviar la informacion-->
+          <input type="submit" value="Dibujar" id="Dibujar">
+        </fieldset>
+      </form>
+    </div>
+    <!--Para poder ocupar nuestro script Actividad16,js-->
+    <script type="text/javascript" src="../Dynamics/JS/Actividad16.js" ></script>
+  </body>
+</html>

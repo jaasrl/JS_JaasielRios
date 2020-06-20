@@ -1,0 +1,16 @@
+/*Darle estilo a la clase contenedor*/
+.contenedor{
+  padding-top:10%;
+  width: 20%;
+  height: 10%;
+}
+/*Darle estilo a la etiqueta canvas*/
+canvas{
+  border: 2px solid black;
+}
+/*Darle estilo a la etiqueta body y a la clase contenedor*/
+body, .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
