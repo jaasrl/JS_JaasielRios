@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <!--Titulo que aparecera en la pestaña-->
+    <title>Memorama</title>
+    <!--Para poder utilizar nuestra hoja de stilo Memorama.css-->
+    <link rel="stylesheet" href="../Statics/CSS/Memorama.css">
+    <!--Para poder hacer uso de la libreria jquery-->
+    <script src="../libs/jquery.js"> </script>
+</head>
+<body>
+    <!--Lo que contendra la cabecera del juego-->
+    <div id="cabecera">
+        <!--Los encabezados que tendra la cabecera-->
+        <h1 id="title"></h1>
+        <h3 id="cartasEnc"></h3>
+        <h3 id="vidas"></h3>
+        <h3 id="cartasRes"></h3>
+        <!--El boton para reiniciar el juego-->
+        <button id="nuevoJuego">Reiniciar juego</button>
+    </div>
+    <!--La division donde estara el tablero-->
+    <div id="tablero"></div>
+    <!--El div que aparecera si ganas-->
+    <div id="end">
+        <h1>Ganaste</h1>
+    </div>
+    <!--Para poder mandar llamar el script Memorama.js-->
+    <script src="../Dynamics/JS/Memorama.js" charset="utf-8"></script>
+</body>
+</html>
