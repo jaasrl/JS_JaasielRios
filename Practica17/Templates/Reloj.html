@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--Titulo que aparecera en la pestaña del navegador-->
+    <title>Reloj</title>
+    <!--Para poder usar de forma remota jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--Declarar el canvas-->
+    <canvas id="canvas"></canvas>
+    <!--div donde estaran los botones-->
+    <div>
+        <!--Botones que moveran la animacion del reloj-->
+        <button id="iniciar">Iniciar</button>
+        <button id="pausar">Pausar</button>
+        <button id="intervalo">Intervalo</button>
+        <button id="reiniciar">Reiniciar</button>
+    </div>
+    <!--div donde se veran los intervalos que se den-->
+    <div id="intervalos"></div>
+    <script src="../Dynamics/JS/Reloj.js" charset="utf-8"></script>
+  </body>
+</html>
