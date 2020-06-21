@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Titulo que aprecera en la pestaña del navegador-->
+    <title>Eventos en JS</title>
+    <!--Para poder ocupar nuestra hoja de estilos Click.css-->
+    <link rel="stylesheet" href="../Statics/CSS/Click.css">
+  </head>
+  <body>
+    <!--Titulo que aparecera en la pgina-->
+    <h1> Tipos de Eventos</h1>
+    <!--Indicar el inicio de una tabla-->
+    <table class="tabla">
+      <!--Declarar una fila-->
+      <tr>
+        <!--Declarar las columnas-->
+        <td>Evento</td>
+        <td>Descripcion</td>
+        <td>Ejemplo</td>
+      </tr>
+      <tr>
+        <td><p>onmousedown</p></td>
+        <td><p>Similar a "onclick", pero cualquier botón del mouse puede activarlo.</p></td>
+        <td><p id="onmousedown">Dame click, y hare magia.</p></td>
+      </tr>
+      <tr>
+        <td><p>onmousemove</p></td>
+        <td><p>Ocurre cuando el cursor del mouse es movido dentro de un elemento.</p></td>
+        <td id="mouseMove"><p>Acerca el mouse</p></td>
+      </tr>
+      <tr>
+        <td><p>onmouseout</p></td>
+        <td><p>Ocurre cuando el mouse se sale del elemento</p></td>
+        <td id="mouseOut"><p>Si sales hare algo</p></td>
+      </tr>
+      <tr>
+        <td>onclick</td>
+        <td>Funciona cuando se da click y se suelta el ratón	en todos los elementos</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>onfocus</td>
+        <td>Aplicable a los elementos:	&lt;button&gt;, &lt;input&gt;, &lt;label&gt;, &lt;select&gt; y &lt;body&gt;</td>
+        <td><div id="OF"></div></td>
+      </tr>
+      <tr>
+        <td>onkeydown</td>
+        <td>Al pulsar una tecla y no soltarla, aplicable a los elementos de un formulario</td>
+        <td><div id="OKD"></div></td>
+      </tr>
+      <tr>
+        <td>onkeyup</td>
+        <td>Al soltar una tecla pulsada,	aplicable a los elementos de un formulario</td>
+        <td><div id="OPU"></div></td>
+      </tr>
+      <tr>
+        <td>onkeypress</td>
+        <td>Al pulsar una tecla, aplicable a los elementos de un formulario y &lt;body&gt;</td>
+        <td><div id="OKP"></div></td>
+      </tr>
+    </table>
+    <script src="../Dynamics/JS/Click.js"></script>
+  </body>
+</html>

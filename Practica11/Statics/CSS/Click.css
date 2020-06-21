@@ -1,0 +1,35 @@
+/*Darle estilo a la tabla*/
+.tabla{
+  background-color: #247be8;
+  border: 3px black solid;
+  color: black;
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+/*Darle estilo a la clase mousedown*/
+.mousedown {
+  color: red;
+}
+/*Darle estilo a la clase mouseout*/
+.mouseout {
+  color:yellow;
+  background-color: green;
+}
+/*Darle estilo a la etiqueta body*/
+body{
+  background-color: yellow;
+}
+/*Darle estilo a la etiqueta h1*/
+h1{
+  font-family: 'Sans serif';
+  text-align: center;
+}
+/*Darle estilo al th y td*/
+th, td {
+  border: 2px black solid;
+  text-align: center;
+  width: 25%;
+  font-size: 20px;
+}
