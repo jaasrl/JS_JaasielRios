@@ -1,0 +1,42 @@
+/*Darle estilo al h2*/
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Darle estilo a la clase form-container*/
+.form-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+}
+/*Darle estilo a la clase form-container con form>div*/
+.form-container form>div {
+  margin: auto;
+  padding: 1em;
+}
+/*Darle estilo a la etiqueta input con pseoudoclase type="submit"*/
+input[type="submit"] {
+  background-color: navy;
+  line-height: 2;
+  padding: 0 1em;
+  border: none;
+  align-self: center;
+  color: white;
+}
+/*Darle estilo a la etiqueta table*/
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+/*Darle estilo a la etiqueta table tbody tr con nth-child(odd)*/
+table tbody tr:nth-child(odd) {
+  background-color: gray;
+}
+/*Darle estilo a la etiqueta table con td*/
+table td {
+  width: 20%;
+}

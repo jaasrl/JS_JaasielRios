@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo que aparecera en la pestaña del navegador-->
+    <title>Crear producto</title>
+    <!--Para poder ocupar nuestra hoja de estilo create.css-->
+    <link rel="stylesheet" href="../Statics/CSS/create.css">
+  </head>
+  <body>
+    <!--div que contendra el form-->
+    <div class="form-container">
+      <!--Subtitulo de la pagina del navegador-->
+      <h2>Crear productos:</h2>
+      <!--Indicar un formulario-->
+      <form id="miForm">
+        <!--Una division-->
+        <div class="field">
+          <!--Labels que tendra el form-->
+          <label for="name">Nombre:</label></br>
+          <!--input de tipo texto-->
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="field">
+          <label for="dispon">Disponibilidad:</label></br>
+          <input type="number" name="dispon" id="dispon">
+        </div>
+        <div class="field">
+          <label for="tipo">Tipo:</label></br>
+          <select name="tipo" id="tipo"></select>
+        </div>
+          <input type="submit" value="Guardar">
+      </form>
+      <h4 id="mensaje"></h4>
+    </div>
+    <!--para poder ocupar nuestro script create.js -->
+    <script src="../Dynamics/JS/create.js"></script>
+  </body>
+</html>

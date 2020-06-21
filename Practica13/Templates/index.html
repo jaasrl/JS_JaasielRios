@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo que aperecera en el navegador-->
+    <title>Productos</title>
+    <!--Para poder ocupar nuestra hoja de estilo index.css-->
+    <link rel="stylesheet" href="../Statics/CSS/index.css">
+  </head>
+<body>
+  <!--div que contedra el form-->
+  <div class="form-container">
+    <!--Subtitulo de la pagina-->
+    <h2>Buscar productos:</h2>
+    <!--Indicar el inicio del formulario-->
+    <form id="myForm">
+      <!--div que contendra al formulario-->
+      <div class="field">
+        <!--label que tendra para escoger-->
+        <label for="clave">Palabra clave:</label>
+        <input type="text" name="clave" id="clave">
+      </div>
+      <div>
+        <select id="tipos-productos" name="tipos">
+        <option value="n">Ninguno</option></select>
+        <input type="submit" value="Buscar">
+      </div>
+    </form>
+    </div>
+    <div class="table-container">
+      <!--Tabla que tendra los datos del producto-->
+      <table>
+        <thead>
+          <th>Clave:</th>
+          <th>Nombre:</th>
+          <th>Disponibilidad:</th>
+          <th>Tipo:</th>
+        </thead>
+        <tbody id="table-content"></tbody>
+      </table>
+    </div>
+    <div class="form-container">
+      <h2>Editar productos</h2>
+      <!--Formulario para poder editar-->
+      <form id="form-editar">
+        <div>
+          Producto: <select id="producto-editar" name="producto-editar"></select>
+          Valor a editar: <select name="tipo-editar" id="tipo-editar">
+          <option value="name">Nombre</option>
+          <option value="disponibilidad">Cantidad</option></select>
+        </div>
+          Nuevo valor: <input type="text" name="valor-editar" id="valor-editar">
+          <!--Para enviar los datos-->
+          <input type="submit" value="Editar">
+      </form>
+      <h4 id="mensaje"></h4>
+    </div>
+  </body>
+  <!--Para poder ocupar nuestro script index.js-->
+  <script src="../Dynamics/JS/index.js"></script>
+</html>
