@@ -1,0 +1,70 @@
+/*Darle estilo al id arriba y abajo*/
+#arriba, #abajo {
+    margin: 0 35px;
+}
+/*Darle estilo al id campo*/
+#campo {
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+/*Darle estilo a la clase botones*/
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 140px;
+}
+/*Darle estilo a la clase seccion*/
+.seccion{
+  margin: auto;
+}
+/*Darle estilo a la clase pixel*/
+.pixel {
+  background-color: cyan;
+  height: 20px;
+  width: 20px;
+}
+/*Darle estilo a la clase serpiente*/
+.serpiente {
+  background-color: orange;
+  height: 20px;
+  width: 20px;
+}
+/*Darle estilo a la clase fruta*/
+.fruta {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+}
+/*Darle estilo a la clase gameover*/
+.gameover {
+  background-color: red;
+  border: 20px solid darkgreen;
+  color: yellow;
+  margin: 200px 10%;
+  font-size: 50px;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  text-align: center;
+  width: 80%;
+}
+/*Darle estilo a la etiwuta body*/
+body{
+  background-image: url("../Statics/Img/FondoPasto.jpg");
+}
+/*Darle estilo a la etiqueta button*/
+button {
+  width: 70px;
+}
+/*Darle estilo a la etiqueta h1*/
+h1{
+  color:blue;
+  font-size: 80px;
+  text-align: center;
+}
+/*Darle estilo a la etiqueta p*/
+p{
+  text-align: center;
+}
